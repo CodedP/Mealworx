@@ -1,0 +1,28 @@
+.topnav {
+  overflow: hidden;
+  background-color: $red;
+  color: $gold;
+  box-shadow: 2px 2px 1px 1px darkred; 
+}
+.logo {
+display: flex;
+float: left;
+}
+.topnav a {
+  display: flex;
+  float: right;
+  background-color: $red;
+  color: $gold;
+  font-family: 'Roboto', sans-serif;;
+  padding: 40px 14px 16px;
+  text-decoration: none;
+  font-size: 16px;
+}
+.topnav a:hover {
+  background-color: $gold;
+  color: $red;
+}
+.active {
+  background-color: $red;
+  color: $gold;
+}

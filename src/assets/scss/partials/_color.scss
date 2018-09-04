@@ -1,4 +1,20 @@
-$bgcolor: #af0000;
-$color: #eab662;
 $red: #af0000;
 $gold: #eab662;
+$dark: darken($red,5%);
+$lite: lighten($red,2%);
+
+$body-bg: #af0000;
+$form-bg: darken($red,5%);
+$white: #eab662;
+
+$main: #af0000;
+$main-light: lighten($main,5%);
+$main-dark: darken($main,5%);
+
+$gray-light: lighten($red,5%);
+$gray: darken($red,10%);
+
+$thin: 100;
+$normal: 200;
+$bold: 200;
+$br: 4px;
